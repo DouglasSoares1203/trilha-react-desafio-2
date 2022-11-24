@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
 import { ItemContainer, HeadContainer, ImgContainer, ButtonsContainer } from './styles';
@@ -20,7 +21,7 @@ function ItemRepo({ repo, handleRemoveRepo }) {
       </HeadContainer>
       <ButtonsContainer>
         <a href={repo.html_url} rel="noreferrer" target="_blank" className='visitar'>Ver repositório</a><br />
-        <a href="#" rel="noreferrer" className="remover">Remover</a>
+        <a href='#' rel="noreferrer" className="remover">Remover</a>
       </ButtonsContainer>
 
       <hr />
